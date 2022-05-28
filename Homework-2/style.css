@@ -1,0 +1,73 @@
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    background-image: url(images/фон.png);
+    background-attachment: fixed; 
+}
+
+.info{
+    position:relative;
+    padding: 20px 40px;
+    background: rgb(157, 221, 231);
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left:17%;
+    margin-right: 17%;
+    margin-block-end: 50px;
+    word-break:break-all;
+}
+
+.header{
+    position: relative;
+    padding: 10px 10px;
+    background: rgb(236, 161, 191);
+    border: 4px solid #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left:2%;
+    margin-right: 2%;
+    margin-block-end: 50px;
+    word-break:break-all;
+}
+
+.logo{
+    width: 150px;
+    height: 50px;
+    margin-left: 75px;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+}
+
+.poster{
+    float: right;
+    padding: 20px 40px;
+    width: 35%;
+    height: auto;
+}
+
+.about-film{
+    font-size: 140%;
+}
+
+.film-idea{
+    font-size: 130%;
+}
+
+.roles{
+    font-size: 130%;
+}
+
+.footer{
+    position:relative;
+    padding: 10px 10px;
+    background: rgb(236, 161, 191);
+    border: 4px solid #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left:2%;
+    margin-right: 2%;
+    margin-block-end: 10px;
+    word-break:break-all;   
+}
