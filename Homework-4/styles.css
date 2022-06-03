@@ -1,0 +1,309 @@
+body{
+    background-color: #fff;
+}
+
+.header{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-color: #ED4C5C;
+}
+
+.head-text{
+    display: inline-block;
+    width: 27.25%;
+    margin-top: 7.625%;
+    margin-left: 10.3125%;
+}
+
+.logo-text{
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;   
+}
+
+.logo-info{
+    position: relative;
+    margin-top: 8.2%;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.images{
+    margin-top: 10%;
+}
+
+.images a:hover {
+    opacity: 0.6;
+  }
+
+.img{
+    width: 26px;
+    height: 26px;
+    margin-right: 3.35%;
+    cursor: pointer;
+}
+
+.main-image{
+    float: right;
+    margin-top: 5.875%;
+    margin-left: 9.0625%;
+    margin-right: 13.5%;
+}
+
+.img2{
+    width: 489px;
+    height: auto;
+}
+
+.main{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 45px;
+}
+
+.contact{
+    display: inline-block;
+    width: 27.25%;
+    margin-top: 7.3125%;
+    margin-left: 10.3125%;
+}
+
+.contact h1{
+    height: 107px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000
+}
+
+.contact p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #000000;
+}
+
+.type-text{
+    float: right;
+    margin-top: 7.3125%;
+    margin-left: 12.3125%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+    max-width: 540px;
+}
+
+.name-surname {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+    margin-bottom: 25px;
+    margin-right: 33px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    padding: 18px 30px;
+}
+
+.tel{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+    padding-top: 18px;
+    padding-right: 290px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+
+.select{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+    padding-top: 18px;
+    padding-right: 356px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+    appearance: none;
+    background-image: url(images/select.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 96%;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+
+.type-text button{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #ED4C5C;
+    padding: 17px 34px;
+    text-transform: capitalize;
+    border: 1.5px solid #ED4C5C;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.type-text button:hover {
+    background-color: #c54451;
+  }
+
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer{
+    width: 100%;
+    height: 435px;
+    padding-top: 85px;
+    display: flow-root;
+    background-color: #FAFAFA;
+}
+
+footer h2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    padding-bottom: 33px;
+}
+
+footer p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #101010;
+}
+
+.container{
+    display: flex;
+}
+
+.adress{
+    width: 254px;
+    height: 154px;
+    display: inline-block;
+    margin-left: 10.375%;
+}
+
+.services{
+    width: 254px;
+    height: 154px;
+    display: inline-block;
+    margin-left: 1.875%;
+}
+
+.ul{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #101010; 
+}
+
+.link2{
+    text-decoration: none;
+    color: #101010;
+}
+
+.getintouch{
+    width: 254px;
+    height: 154px;
+    display: inline-block;
+    margin-left: 1.875%;
+}
+
+footer a:hover{
+        color: #c54451;
+}
+
+.images-footer{
+    margin-top: 8.3125%;
+}
+
+.images-footer a:hover {
+    opacity: 0.6;
+  }
+
+.img-facebook{
+    width:6.42px;
+    height: 11.67px;
+    margin-right: 6.35%;
+    cursor: pointer;
+}
+
+.img-linkedin{
+    width: 11.67px;
+    height: 11.08px;
+    margin-right: 6.35%;
+    cursor: pointer;
+}
+
+.img-twitter{
+    width: 12.83px;
+    height: 10.47px;
+    margin-right: 6.35%;
+    cursor: pointer;
+}
+
+.wesupport{
+    width: 254px;
+    height: 154px;
+    display: inline-block;
+    margin-left: 1.875%;
+}
+
+.payments{
+    width: 216px;
+    height: 31px;
+}
+
+.rights{
+    font-size: 0.8rem;
+    margin-top: 10.375%;
+    margin-left: 10.375%;
+}
+
+
+
