@@ -268,15 +268,15 @@ body{
   color: #FFFFFF;
 }
 
-h5 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    display: inline-flex;
-    cursor: pointer;
+h5{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  display: inline-flex;
+  cursor: pointer;
 }
 
 
