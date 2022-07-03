@@ -1,0 +1,379 @@
+$font-stack: 'Roboto', sans-serif;
+$ColourMainBlue: #505F98;
+$ColourMainBlue300: #929ECC;
+$ColourMainBlue400: #6F7CB2;
+$ColourLogoPrimary: #37447E;
+$ColourMainBlue700: #222F65;
+$ColourMainBlue800: #111B47;
+$ColourMainBlue900: #091133;
+$ColourMainGrey600: #5D6970;
+$ColourSecondaryWhite100: #fff;
+
+body, html {
+    font-family: $font-stack;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 5px 20px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    ul {
+        display: flex;
+    }
+
+    ul li:last-child a {
+        margin-right: 0;
+      }
+
+    a {
+        font-size: 14px;
+        color: $ColourMainBlue;
+        margin-right: 60px;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #1f42cf;
+    }
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 38px;
+    color: $ColourLogoPrimary;
+    margin: 0 20px;
+}
+
+.btn {
+    background: $ColourMainBlue800;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 18px;
+    color: $ColourSecondaryWhite100;
+    width: 160px;
+    height: 26px;
+    cursor: pointer;
+}
+
+.text-block {
+    max-width: 50%;
+    padding-bottom: 170px;
+
+
+    h1 {
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 66px;
+        letter-spacing: 1px;
+        color: $ColourMainBlue900;
+        margin-top: 243px;
+        margin-bottom: 20px;
+    }
+  
+    p {
+        font-size: 18px;
+        line-height: 30px;
+        color: $ColourMainBlue;
+        margin-bottom: 20px;
+    }
+}
+
+.header {
+    background: url(images/header-img.svg) bottom right no-repeat;
+}
+
+.header_buttons {
+    margin-top: 69px;
+
+    button {
+        font-size: 16px;
+        line-height: 26px;
+        width: 189px;
+        height: 36px;
+        margin-bottom: 216px;
+    }
+
+    .learnMore {
+        margin-left: 20px;
+        background-color: $ColourSecondaryWhite100;
+        border: 2px solid $ColourMainBlue800;
+        color: $ColourMainBlue900;
+    }
+}
+
+.h2 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: $ColourMainBlue900;
+    padding-top: 170px;
+  }
+  
+.p1,
+.p2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: $ColourMainBlue400;
+    margin-top: 20px;
+    max-width: 96%;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .text {
+        width: 50%;
+  
+        .text-block {
+            max-width: 100%;
+            margin-left: 140px;
+        }
+
+
+        .btn {
+            margin-left: 140px;
+            margin-bottom: 170px;
+        }
+    }
+}
+
+.paper {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+  
+.block1 {
+    max-width: 45%;
+
+    p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: $ColourMainGrey600;
+        padding-top: 5px;
+    }
+    h3 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color: $ColourMainBlue900;
+        padding-top: 5px;
+    }
+}
+
+.section-end{
+    .text-block {
+    padding-bottom: 20px;
+  }
+}
+
+.price-block {
+    background: rgba(226, 232, 253, 0.5);
+    position: relative;
+
+    .price-block-text {
+        max-width: 610px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 100px;
+    }
+    .price {
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 66px;
+        color: $ColourMainBlue700;
+        letter-spacing: 1px;
+        margin-bottom: 0;
+        margin-top: 35px;
+    }
+    .p4 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: $ColourMainGrey600;
+        margin-bottom: 5px;
+    }
+    .p3 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: $ColourLogoPrimary;
+        margin: 0 0 60px 0;
+    }
+    .btn {
+        margin-bottom: 170px;
+    }
+}
+
+.price-block::before {
+    content: "";
+    position: absolute;
+    background-color: $ColourSecondaryWhite100;
+    top: 0;
+    left: 50%;
+    width: 110%;
+    height: 100px;
+    transform: translateX(-50%);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.footer {
+    background: #E7ECFF;
+    min-height: 216px;
+}
+  
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 61px;
+    margin-bottom: 40px;
+
+    .rights {
+        color: #939EA4;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .btn{
+        width: 120px;
+    }
+}
+  
+.footer-buttons {
+    margin-top: 20px;
+
+    .social-media{ 
+
+        a {
+            margin-right: 30px;
+        }
+
+        a:last-child {
+            margin: 0;
+        }
+    }
+}
+
+.hr{
+    height: 1px;
+    background-color: #CDD1D4;
+}
+
+//MEDIA//
+
+@media (max-width: 1280px) {
+    .header {
+      background: linear-gradient(to right, rgba(255, 255, 255, 0.5) 0%, rgba(237, 237, 237, 0.5) 100%), url(images/header-img.svg) right center no-repeat;
+    }
+  
+    .text-block {
+        margin-left: 0;
+        padding-bottom: 50px;
+        max-width: 95%;
+    
+        .p1,
+        .p2 {
+            margin: 20px auto;
+        }
+    }
+  
+    .section {
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+    
+        .text {
+            width: 90%;
+        
+
+            .text-block {
+                margin-left: 0;
+            }
+
+            .btn {
+                width: 60%;
+                margin: 0;
+            }
+        }
+
+        .h2 {
+            padding-top: 50px;
+        }
+    }
+  
+    .section-start {
+      padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 600px) {
+    body,
+    html {
+      font-size: 14px;
+      line-height: 1;
+    }
+  
+    .nav {
+      justify-content: space-around;
+    
+        ul {
+            order: 1;
+            margin-top: 10px;
+        }
+        .btn {
+            order: 2;
+            margin-top: 20px;
+        }
+    }
+  
+    .footer-buttons{ 
+
+        ul {
+            width: 70%;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+    }
+    .text-block{
+
+        h1 {
+            margin-top: 50px;
+            font-size: 32px;
+            line-height: 40px;
+        }
+    }
+  
+    .section {
+      flex-wrap: nowrap;
+    }
+  
+    .header_buttons {
+      text-align: center;
+
+        button {
+             margin-bottom: 25px;
+        }
+        .learnMore {
+            margin: 0;
+        }
+    }
+  }
